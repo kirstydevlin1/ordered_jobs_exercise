@@ -1,4 +1,4 @@
-## The Kata
+## The Kata :cyclone:
 
 ```
 Imagine we have a list of jobs, each represented by a character. Because certain jobs must be done before others, a job may have a dependency on another job. For example, a may depend on b, meaning the final sequence of jobs should place b before a. If a has no dependency, the position of a in the final sequence does not matter.
@@ -43,7 +43,7 @@ f => b
 The result should be an error stating that jobs can’t have circular dependencies.
 ```
 
-## Context
+## Context :crystal_ball:
 
 Since beggining to code I have only ever studied html, css and javascript. Although, risky I decided to approach this challenge in a language unknown to me at the time, Ruby.
 
@@ -52,19 +52,21 @@ It has been an interested transition and I've thoroughly enjoyed learning a new 
 I started building on my knowledge by completing the Ruby curriculum on codecademy,challenging myself using katas such as fizzbuzz and continued to re-learn concepts before approaching the ordered_jobs kata.
 
 
-## Getting started
+## Getting started :unlock:
 
 - Firstly I created a folder locally ```'ordered_jobs'```
-- initialised git using ```git init```
-- installed ```gem install rspec```
-- contiued ```rspec --init```
+- Initialised git using ```git init```
+- Installed ```gem install rspec```
+- Contiued to add ```rspec --init```
 - Created files: ```lib / ordered_lists.rb```
 - Commited all changes incrementally to remote origin (github)
 
-## TDD
+## TDD :ocean:
 
-I tried to ensure that I followed the TDD principles as closely as possible, passing 3 of 6 challenge. I then hit a brick wall at part 4 when I introduced 'class' after part 3.
+- I tried to ensure that I followed the TDD principles as closely as possible, passing 3 of 6 challenge. I then hit a brick wall at part 4 when I introduced 'class' after part 3.
 
-If I had more time to complete the exercise, I would approach each challenge individually and sort the problem I had with my undefined method in class.
+## On reflection
+
+I had bitten off more than I could chew, attempting a new language, in a short space of time. However, I did really enjoy it!
 
 Given another opportunity or more time, I would also look into converting the jobs into symbols and being able to sort them with matching hashes to complete challenge 5. I would also refactor the methods and make the code read easier and function better. Adding if/that statements that equal certain jobs and error when matching others would also be a consideration for the future.
