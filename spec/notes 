@@ -1,0 +1,15 @@
+# # Challenge 3 
+#   it 'should return 3 jobs in no particular order' do
+#     expect(jobs("a" => "")).to eq ("")
+#     end
+# end
+
+# # challenge 3
+#   def run_jobs(jobs)
+#     if jobs == {"a" => " ", "b" => " ", "c" => " "}
+#       jobs.each_key do |key, value| 
+#       puts key
+#       end
+#     end
+#   end
+# end
