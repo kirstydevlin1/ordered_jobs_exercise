@@ -43,7 +43,7 @@ f => b
 The result should be an error stating that jobs can’t have circular dependencies.
 ```
 
-#Approach
+## Context
 
 Since beggining to code I have only ever studied html, css and javascript. Although, risky I decided to approach this challenge in a language unknown to me at the time, Ruby.
 
@@ -52,15 +52,19 @@ It has been an interested transition and I've thoroughly enjoyed learning a new 
 I started building on my knowledge by completing the Ruby curriculum on codecademy,challenging myself using katas such as fizzbuzz and continued to re-learn concepts before approaching the ordered_jobs kata.
 
 
-#Process for the ordered_jobs kata
+## Getting started
 
 - Firstly I created a folder locally 'ordered_jobs'
 - initialised git using ```git init```
 - installed ```gem install rspec```
 - contiued ```rspec --init```
 - Created files: ```lib / ordered_lists.rb```
-- Commited all changes remotely to github
+- Commited all changes incrementally to remote origin (github)
 
-- Tackling q 1- I approached the first part of the challenge using the minimal amount to get the first part to pass. Initially I couldn't get the test to pass because I had missed off a putting my method in astericks.
+## TDD
 
-- Passing the test on challenge 2
+I tried to ensure that I followed the TDD principles as closely as possible, passing 3 of 6 challenge. I then hit a brick wall at part 4 when I introduced 'class' after part 3.
+
+If I had more time to complete the exercise, I would approach each challenge individually and sort the problem I had with my undefined method in class.
+
+Given another opportunity or more time, I would also look into converting the jobs into symbols and being able to sort them with matching hashes to complete challenge 5. I would also refactor the methods and make the code read easier and function better. Adding if/that statements that equal certain jobs and error when matching others would also be a consideration for the future.
