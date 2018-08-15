@@ -54,7 +54,7 @@ I started building on my knowledge by completing the Ruby curriculum on codecade
 
 ## Getting started
 
-- Firstly I created a folder locally 'ordered_jobs'
+- Firstly I created a folder locally ```'ordered_jobs'```
 - initialised git using ```git init```
 - installed ```gem install rspec```
 - contiued ```rspec --init```
